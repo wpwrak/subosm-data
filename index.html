@@ -1,0 +1,87 @@
+<HTML>
+<TITLE>Walking distances to subway stations</TITLE>
+<BODY>
+<H1>Walking distances to subway stations</H1>
+
+... in metropoles around the world. These maps were generated with
+data from <A href="http://www.openstreetmap.org">OpenStreetMap</A>.
+Extracts for urban areas can be downloaded from
+<A href="http://metro.teczno.com/"><SAMP>metro.teczno.com</SAMP></A>.
+<P>
+The maps presented here aren't meant to be authoritative and are probably
+full of errors. They're merely an attempt to extract this sort of
+information from OSM. The program (for Linux, written in C) is available
+<A href="https://github.com/wpwrak/subosm">here</A>.
+<P>
+<TABLE>
+  <TR>
+    <TD><A href="BUE.png"><IMG src="BUE-thumb.png"></A>
+    <TD><B>Buenos Aires</B>
+      <BR><A href="BUE.png">Detailed view</A>
+      <BR><A href="BUE.gp.bz2">gnuplot data set</A>
+      <BR>The subway system is complemented by regional trains (not shown)
+	that mainly connect the surrounding metropolitan area but also
+	have some stops inside the city.
+	<BR>
+	A vast network of bus services duplicates and complements the
+	subway, providing service to the many areas the subway doesn't
+	reach. A tramway line ("premetero", now shown) covers some of the
+	southwestern corner.
+	<BR>
+	Note that the map shows a few stations what are not yet in service.
+  <TR>
+    <TD><A href="LON.png"><IMG src="LON-thumb.png"></A>
+    <TD><B>London</B>
+      <BR><A href="LON.png">Detailed view</A>
+      <BR><A href="LON.gp.bz2">gnuplot data set</A>
+      <BR>Not entirely sure if all the stops OSM shows truly correspond to
+	subway stations. Some seem too far out.
+  <TR>
+    <TD><A href="MAD.png"><IMG src="MAD-thumb.png"></A>
+    <TD><B>Madrid</B>
+      <BR><A href="MAD.png">Detailed view</A>
+      <BR><A href="MAD.gp.bz2">gnuplot data set</A>
+      <BR>Are the outliers for real ?
+  <TR>
+    <TD><A href="NYC.png"><IMG src="NYC-thumb.png"></A>
+    <TD><B>New York</B>
+      <BR><A href="NYC.png">Detailed view</A>
+      <BR><A href="NYC.gp.bz2">gnuplot data set</A>
+      <BR>I've don't know that city. Is the map even remotely accurate ?
+	The outliers seem weird.
+  <TR>
+    <TD><A href="PAR.png"><IMG src="PAR-thumb.png"></A>
+    <TD><B>Paris</B>
+      <BR><A href="PAR.png">Detailed view</A>
+      <BR><A href="PAR.gp.bz2">gnuplot data set</A>
+      <BR>Subway coverage looks nearly perfect. Anything to add ?
+  <TR>
+    <TD><A href="VIE.png"><IMG src="VIE-thumb.png"></A>
+    <TD><B>Vienna</B>
+      <BR><A href="VIE.png">Detailed view</A>
+      <BR><A href="VIE.gp.bz2">gnuplot data set</A>
+      <BR>Vienna also uses tramways and urban trains to complement the
+	subway system.
+</TABLE>
+<P>
+The color-coding is as follows: green is for walking distances up
+to 333 m, which corresponds to about 5 minutes of walking (not
+counting waits for red lights, congested sidewalks, etc.) A walking
+time of 5 minutes or less is generally considered excellent.
+<BR>
+Yellow is for walking times between 5 and 10 minutes. This is still
+convenient for most people.
+<BR>
+Red is for a time between 10 and 15 minutes. While still tolerable,
+having to walk for so long may become an effort, especially in a
+crowded or otherwise unattractive zone.
+<BR>
+Anything beyond 15 minutes (1 kilometer) is considered to be
+unacceptable for the
+majority of passengers (although some may actually enjoy a long
+walk) and would drive many to seek other means of transportation,
+be it in the form of a replacement of the subway service or in
+the form of a complementary service to reach a subway station.
+<BR>
+Note: these figures are based on the meta-study
+<A href="http://www.fairfaxcounty.gov/planning/tod_docs/walking_distance_abstracts.pdf">"Planning Commission TOD Committee, Walking Distance Research"</A>.
